@@ -6,20 +6,20 @@ import {
   payments as seedPayments,
   ratings as seedRatings,
   students as seedStudents,
-} from "./data/mockData";
+} from "./mockData";
 import type { AbsenceNotice, Expense, Notice, Payment, Rating, Student } from "./types";
-import type { SidebarItem } from "./components/Sidebar";
-import type { MobileTab } from "./components/MobileTabBar";
-import { LandingPage } from "./screens/LandingPage";
-import { DriverDashboard } from "./screens/DriverDashboard";
-import { DriverFinance, type FinanceTab } from "./screens/DriverFinance";
-import { DriverStudents } from "./screens/DriverStudents";
-import { DriverNotices } from "./screens/DriverNotices";
-import { RouteOptimization } from "./screens/RouteOptimization";
-import { StudentMobile } from "./screens/StudentMobile";
-import { StudentPayments } from "./screens/StudentPayments";
-import { StudentProfile } from "./screens/StudentProfile";
-import { ProximityNotification } from "./screens/ProximityNotification";
+import type { SidebarItem } from "./Sidebar";
+import type { MobileTab } from "./MobileTabBar";
+import { LandingPage } from "./LandingPage";
+import { DriverDashboard } from "./DriverDashboard";
+import { DriverFinance, type FinanceTab } from "./DriverFinance";
+import { DriverStudents } from "./DriverStudents";
+import { DriverNotices } from "./DriverNotices";
+import { RouteOptimization } from "./RouteOptimization";
+import { StudentMobile } from "./StudentMobile";
+import { StudentPayments } from "./StudentPayments";
+import { StudentProfile } from "./StudentProfile";
+import { ProximityNotification } from "./ProximityNotification";
 
 // ─── Screen registry ────────────────────────────────────────────────────────
 // This is a design prototype, not a routed app: every screen is reachable
@@ -183,4 +183,3 @@ export default function App() {
     </div>
   );
 }
-
