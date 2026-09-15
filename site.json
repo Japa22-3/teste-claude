@@ -1,0 +1,7 @@
+{
+  "title": "VanFácil — Gestão de van escolar",
+  "description": "Rotas, mensalidades e controle de gastos da van escolar em um só lugar. Para motoristas e alunos.",
+  "language": "pt-BR",
+  "robots": { "index": true },
+  "accessibility": { "addBypassLinks": true }
+}
